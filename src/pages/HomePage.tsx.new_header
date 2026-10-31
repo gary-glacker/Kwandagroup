@@ -1,0 +1,33 @@
+import { Link } from 'react-router-dom';
+import { motion } from 'motion/react';
+import {
+  ArrowRight,
+  ArrowUpRight,
+  CheckCircle2,
+  Globe,
+  Mail,
+  MapPin,
+  Phone,
+  Play,
+  Sparkles,
+} from 'lucide-react';
+import PageLayout from '../components/layout/PageLayout';
+import HeroTechCard from '../components/home/HeroTechCard';
+import TechInnovationMatrix from '../components/home/TechInnovationMatrix';
+import { PRODUCTS_DATA } from '../data/products';
+import { KwandaMark } from '../components/shared/KwandaLogo';
+import SEO from '../components/shared/SEO';
+import {
+  AiIcon,
+  CloudIcon,
+  CodeIcon,
+  CompassIcon,
+  GrowthIcon,
+  LayersIcon,
+  LogisticsIcon,
+  ShieldIcon,
+  SmartHomeIcon,
+  SpaceIcon,
+  SparkIcon,
+  TransitIcon,
+} from '../components/shared/BrandIcons';

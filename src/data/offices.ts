@@ -1,0 +1,50 @@
+export const OFFICE_LOCATIONS = [
+  {
+    id: "kigali",
+    name: "Kigali Global Headquarters",
+    city: "Kigali, Rwanda",
+    badge: "Global HQ & R&D Center",
+    address: "Norsken House, KG 7 Ave, Kigali, Rwanda",
+    lat: -1.9441,
+    lng: 30.0619,
+    mapQuery: "Norsken+House,+KG+7+Ave,+Kigali,+Rwanda",
+    phone: "+250 788 123 456 / +250 788 000 111",
+    email: "hq@kwandagroup.rw",
+    hours: "Mon - Fri: 8:00 AM - 6:00 PM (CAT)",
+    transit: "10 min drive from Kigali City Center (KGL Airport access road)",
+    landmarks: "Norsken House, KG 7 Ave — Kigali Central Business District",
+    directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Norsken+House,+KG+7+Ave,+Kigali,+Rwanda"
+  },
+  {
+    id: "nairobi",
+    name: "Nairobi Regional Tech Hub",
+    city: "Nairobi, Kenya",
+    badge: "East Africa Regional Office",
+    address: "Westlands Cyber Park, Ring Rd, Westlands, Nairobi, Kenya",
+    lat: -1.2676,
+    lng: 36.8070,
+    mapQuery: "Westlands,+Nairobi,+Kenya",
+    phone: "+254 700 987 654",
+    email: "kenya@kwandagroup.rw",
+    hours: "Mon - Fri: 8:00 AM - 5:30 PM (EAT)",
+    transit: "25 min drive from Jomo Kenyatta International Airport (NBO)",
+    landmarks: "Westlands Commercial Hub, near Sarit Centre",
+    directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Westlands,+Nairobi,+Kenya"
+  },
+  {
+    id: "joburg",
+    name: "Johannesburg Enterprise Hub",
+    city: "Johannesburg, South Africa",
+    badge: "Southern Africa Hub",
+    address: "Sandton City Towers, 5th St, Sandton, Johannesburg, 2196, South Africa",
+    lat: -26.1076,
+    lng: 28.0567,
+    mapQuery: "Sandton+City+Towers,+Johannesburg,+South+Africa",
+    phone: "+27 11 555 0199",
+    email: "sa@kwandagroup.rw",
+    hours: "Mon - Fri: 8:30 AM - 5:00 PM (SAST)",
+    transit: "30 min via Gautrain from O.R. Tambo International Airport (JNB)",
+    landmarks: "Sandton City Financial Precinct",
+    directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Sandton+City+Towers,+Johannesburg,+South+Africa"
+  }
+];
